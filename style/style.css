@@ -1,0 +1,66 @@
+@font-face { font-family: "Comic-Sans-MS"; src: url("Comic-Sans-MS.ttf"); }
+
+
+div {
+    display: block;
+}
+form {
+    margin: 40px auto 20px;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 20px;
+    background-color: #9f82f0d3;
+    border: solid 2px #ffffff;
+    border-radius: 20px;
+    font-size: 17px;
+    background-image: url(../src/images/bg-2.jpg);
+    background-position: center;
+    background-size: 50%;
+}
+body {
+    color:#fff!important;
+    text-shadow: 2px 1px 1px rgb(79, 39, 127);
+    font-family: "Comic-Sans-MS", Arial, sans-serif;
+    /* text-align: center; */
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url(https://phonoteka.org/uploads/posts/2021-06/1624450465_11-phonoteka_org-p-oboi-dlya-odinochek-anime-krasivo-12.jpg);
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+
+.button { 
+    border-radius: 30px;
+    background-color: #c66ebe;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+    border: solid 2px #8a39ac;
+}
+
+body .hover:hover {
+    -webkit-filter: hue-rotate(45deg);
+	filter: hue-rotate(45deg);
+}
+
+input {
+    outline: none;
+    border: solid 2px #b356c8;
+    border-radius: 15px;
+    height: 22px;
+}
+
+a {
+    color:#fff!important;
+    text-shadow: rgb(42, 19, 69) 1px 1px 4px; 
+}
